@@ -1,4 +1,4 @@
-              ## Description
+## Description
 
 This is a Node.js Express application.
 
@@ -36,7 +36,7 @@ This is a Node.js Express application.
 ### To create database tables:
 
    ```bash
-    npx sequelize-cli db:migrate --migrations-path back-end/migrations --env development
+    npx sequelize-cli db:migrate --env development
    ```
 
 ## Run Seeders
@@ -51,5 +51,5 @@ This is a Node.js Express application.
 #### To start the application:
 
    ```bash
-   npm start
+   node server.js
    ```
